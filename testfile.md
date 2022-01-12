@@ -1,1 +1,1 @@
-dogs are awesome!
+dogs are **awesome**!
