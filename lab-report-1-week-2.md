@@ -1,3 +1,13 @@
-hello there
+Elena Tomson
+---
+Lab Report #1 Week 2
 
-![Image](hi.png)
+
+If you do not have VSCode already installed, install the proper verion for your computer [here](https://code.visualstudio.com/Download)
+
+![Image](VSCode-Download.png)
+
+Once you have VSCode, open it.
+![Image](VSCode.png)
+
+
