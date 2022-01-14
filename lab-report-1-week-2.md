@@ -13,6 +13,7 @@ Once you have VSCode, open it.
 # Remotely Connecting
 
 First, [Install-SSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
+
 To remotely connect, type ssh and your username and your password when prompted.
 
 *Note*: You will need to input your password whenever prompted until we set up the ssh key. 
@@ -21,6 +22,7 @@ To remotely connect, type ssh and your username and your password when prompted.
 Then you should see something resembling this
 ![Signed-In](signed-in.png)
 
+Congrats! you are now remotely on the ieng6 server at UCSD. Your computer is now a client to ieng6.
 # Trying Some Commands
 
 From here, you can input an array of commands to the server: 
@@ -39,7 +41,8 @@ Similarly to signing in, to copy a file from the client to the server, input the
 When I did this, the file copied over would print information about it's location when run.
 
 ![location](Where-am-I.png)
-the first run is on the linux server and the second is on the windows client.
+
+The first run is on the linux server and the second is on the windows client.
 
 # Setting an SSH Key
 
@@ -49,10 +52,13 @@ Then enter the file name you want for your key, then leave the passphrase empty.
 Then you need to make an ssh directory on the server.
 ![make-dir](make-dir.PNG)
 Then copy the public key to the server using scp like 
-scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
-Make sure your path for your own private key is correct or it will fail like mine did.
-![fail](bad-ssh.png)
+"scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys"
+
+but with your .ssh directory and public key as well as your username.
+
+The location of the public file was visible when you made the keys, make sure this is where you are copying from or it will not work.
+![fail](keygen.PNG)
 
 # Optimizing Remote Running
 
