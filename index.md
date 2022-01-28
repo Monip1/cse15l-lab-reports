@@ -16,4 +16,4 @@ Hi there!
 
 
 
-[OhGodWhatHaveIDone](https://monip1.github.io/cse15l-lab-reports/ForFun.html)
+[OhGodWhatHaveIDone](https://monip1.github.io/fun-things)
