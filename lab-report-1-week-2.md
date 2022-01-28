@@ -66,23 +66,23 @@ To copy and run changes on the server quickly, type the scp and ssh commands for
 
 Keystrokes for first run(assuming you have the command availiable in a separate note onscreen) **8**
 ```
-1.  highlight compile command
-2. copy
-3. paste into terminal
-4. enter
-5. highlight run code
-6. copy
-7. paste into terminal
-8. enter
+highlight compile command
+copy
+paste into terminal
+enter
+highlight run code
+copy
+paste into terminal
+enter
 ```
 Keystrokes in terminal for subsequent runs **6**
 ``` 
-1. up arrow
-2. up arrow
-3. enter
-4. up arrow
-5. up arrow
-6. enter
+up arrow
+up arrow
+enter
+up arrow
+up arrow
+enter
 ```
 
 
