@@ -69,9 +69,11 @@ The 2 commands can placed in succession, surrounded by one set of ""s and sepera
 Keystrokes for first run(assuming you have the command availiable somewhere onscreen i.e. a note): **7**
 ```
 highlight command
-ctrl+C -- copy
+(ctrl+ 
+ C)-- copy
 click into terminal
-ctrl+V -- paste into terminal
+(ctrl+
+ V) -- paste into terminal
 enter
 ```
 Keystrokes in terminal for subsequent runs: **2**
