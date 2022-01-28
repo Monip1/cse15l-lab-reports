@@ -64,25 +64,21 @@ The location of the public file was visible when you made the keys, make sure th
 
 To copy and run changes on the server quickly, type the scp and ssh commands for copying and then compiling and running the file, then use arrows to get up to them to rerun the program.
 
-Keystrokes for first run(assuming you have the command availiable in a separate note onscreen): **8**
+The 2 commands can placed in succession, surrounded by one set of ""s and seperated by a ; to make one command to be used for the following.
+
+Keystrokes for first run(assuming you have the command availiable somewhere onscreen i.e. a note): **7**
 ```
-highlight compile command
-copy
-paste into terminal
-enter
-highlight run code
-copy
-paste into terminal
+highlight command
+ctrl+C -- copy
+click into terminal
+ctrl+V -- paste into terminal
 enter
 ```
-Keystrokes in terminal for subsequent runs: **6**
+Keystrokes in terminal for subsequent runs: **2**
 ``` 
-up arrow
-up arrow
-enter
-up arrow
-up arrow
-enter
+up arrow -- to the compile and run command
+enter -- compiles and runs code
+
 ```
 
 
