@@ -4,15 +4,15 @@ For each of the three code changes:
 
 1. 
 * ![Code1](Code1.png)
-* [HasImage](2)
+* [Has Extra Characters](https://github.com/Monip1/markdown-parse/blob/1b9b5c7d1c9b0cf09d9f73caa23300750fa6e50a/test-file2.md)
 * ![Fail1](Fail1.png)
 * Anything at the end of the file caused it to never finish running and print out the links because it got stuck in a while loop forever. Since the last character was not a ")", 
 2. 
 * ![Code2](Code2.png)
-* [HasBracket](3)
+* [Has Image](https://github.com/Monip1/markdown-parse/blob/1b9b5c7d1c9b0cf09d9f73caa23300750fa6e50a/test-file3.md)
 * ![](Fail2.png)
-* Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.
+* Images were printing as links. This was because the only difference between a link and image is "!" preceeding "["
 3. * ![Code3](Code3.png)
-* Link to the test file for a failure-inducing input that prompted you to make that change
+* [HasBrackets](https://github.com/Monip1/markdown-parse/blob/1b9b5c7d1c9b0cf09d9f73caa23300750fa6e50a/test-file4.md)
 * ![Fail3](Fail3.png)
-* Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.
+* The extra "[" did not have a "!" before it, so the program didn't see it as an image, but a link, and printed it.
