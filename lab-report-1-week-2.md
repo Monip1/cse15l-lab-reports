@@ -25,7 +25,7 @@ Then you should see something resembling this
 Congrats! you are now remotely on the ieng6 server at UCSD. Your computer is now a client to ieng6.
 # Trying Some Commands
 
-From here, you can input an array of commands to the server: 
+From here, you can input an array of [commands](https://commonmark.org/help/) to the server: 
 
 ![CommandList](list-of-commands.PNG)
 
@@ -63,5 +63,25 @@ The location of the public file was visible when you made the keys, make sure th
 # Optimizing Remote Running
 
 To copy and run changes on the server quickly, type the scp and ssh commands for copying and then compiling and running the file, then use arrows to get up to them to rerun the program.
+
+Keystrokes for first run(assuming you have the command availiable in a separate note onscreen) `8`
+* highlight compile command
+* copy
+* paste into terminal
+* enter
+* highlight run code
+* copy
+* paste into terminal
+* enter
+
+Keystrokes in terminal for subsequent runs `6`
+* up arrow
+* up arrow
+* enter
+* up arrow
+* up arrow
+* enter
+
+
 
 ![faster](fast-changes.PNG)
