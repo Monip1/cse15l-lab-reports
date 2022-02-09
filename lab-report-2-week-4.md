@@ -10,7 +10,7 @@ Welcome to the second lab report, here we shall begin to debug.
 ## The second problem - having text after the last link (also images part 2)
 ![Code2](Code2.png)
 * Problem file [here](https://github.com/Monip1/markdown-parse/blob/1b9b5c7d1c9b0cf09d9f73caa23300750fa6e50a/test-file3.md) has characters beyond the final ")" or link / image.
-* Here is the symptom ![Fail2](New-Fail2.png)
+* Here is the symptom ![Fail2](Fail2.png)
 * A file with anything following the last link or image would cause the program to become stuck in an infinite loop because the index of any ")" + 1 is never greater than the file length. Since there was a printout of curIndex in the loop, it continuously printed zeros This update breaks the while loop if any of the elements are not found in the rest of the file at any point. This update also completes the recognition of images by the "!" preceeding them and does not print them.
 ## The third problem - extra brackets 
 ![Code3](Code3.png)
