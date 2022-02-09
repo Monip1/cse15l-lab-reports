@@ -1,6 +1,6 @@
 Hi there!
 
-# How's ya doin m8?
+# This is the official Lab reports and it is very official.
 
 [Lab report 1](https://monip1.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
