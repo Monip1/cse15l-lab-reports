@@ -16,4 +16,4 @@ Then I was also able to successfully copy a new file to ieng6 using
 ```
 
 You can see the file was not there prior to the scp but was present after.
-![Copy](copy.png)
+![Copy](ScpWithDream.png)
