@@ -1,5 +1,6 @@
 dogs are **awesome**!
 
+[here is the markdown cheat sheet](https://commonmark.org/help/)
 cats are *ok*
 # heading 1
 ## heading 2
