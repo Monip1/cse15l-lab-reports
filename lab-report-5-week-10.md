@@ -54,22 +54,22 @@ stacked 494 as the bottom error, 495 as middle, and the equal 497 amd 498 link o
 
 ![494](Pictures/494.png)
 So
--------------------------- Joe's code ------------- myCode --------------- Actual
+------------------------------------- Joe's code ------------- myCode --------------- Actual
 
 From file 494: 
-line 878 has---`[\(foo\)]`-----------------------`[\(foo\]`-----------`(foo)`
+line 878 has---`[\(foo\)]`--------------`[\(foo\]`---------------`(foo)`
 
 
 From file 495: 
 line 880 has---`[foo(and(bar))]`---`[foo(and(bar]`------`foo(and(bar))`
 
 From file 496: 
-line 882 has---`[]`-----------------------`[foo(and(bar]`------`[]`
+line 882 has---`[]`-----------------------------`[foo(and(bar]`------`[]`
 
 From file 497: 
-line 884 has---`[]`-----------------------`[foo\(and\(bar\]`---`foo(and(bar)`
+line 884 has---`[]`-----------------------------`[foo\(and\(bar\]`---`foo(and(bar)`
 
 From file 498: 
-line 886 has---`[]`-----------------------`[<foo(and(bar]`-----`foo(and(bar)`
+line 886 has---`[]`-----------------------------`[<foo(and(bar]`-----`foo(and(bar)`
 
 
